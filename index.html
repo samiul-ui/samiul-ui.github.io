@@ -4,9 +4,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SAMIUL ISLAM | Portfolio Fixed</title>
+    
+    
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
     <style>
+
+
+/* ট্যাবলেট ও মোবাইলের জন্য (স্ক্রিন 768px এর কম) */
+@media only screen and (max-width: 768px) {
+    
+    /* কন্টেইনারের প্রস্থ ফ্লেক্সিবল করুন */
+    .container, .wrapper, main, section {
+        width: 95% !important;
+        padding: 10px !important;
+        margin: 0 auto !important;
+    }
+    
+    /* ছবিগুলো রেস্পন্সিভ করুন */
+    img, iframe, video {
+        max-width: 100% !important;
+        height: auto !important;
+    }
+    
+    /* মেনু বার সোজা করে দিন (হরিজনটাল থেকে ভার্টিকাল) */
+    nav ul, .menu ul, .navbar ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    nav li, .menu li, .navbar li {
+        width: 100%;
+        margin: 5px 0;
+    }
+    
+    /* ফন্ট সাইজ একটু ছোট করুন */
+    body {
+        font-size: 16px;
+    }
+    
+    h1 { font-size: 24px; }
+    h2 { font-size: 20px; }
+    h3 { font-size: 18px; }
+    
+    /* বাটন ও লিংকে টাচের জন্য স্পেস দিন */
+    button, .button, a.button, input[type="submit"] {
+        padding: 12px 20px;
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+    }
+    
+    /* ফ্লেক্সবক্স বা গ্রিড থাকলে সেগুলো এক কলাম করুন */
+    .row, .flex-container {
+        flex-direction: column !important;
+    }
+    
+    .col, .column {
+        width: 100% !important;
+        margin: 10px 0 !important;
+    }
+}
+
+
+
+
+
+
+        
         /* --- CSS STYLES (ডিজাইন) --- */
         :root {
             --bg-color: #0b0e17; /* ডার্ক ব্যাকগ্রাউন্ড */
